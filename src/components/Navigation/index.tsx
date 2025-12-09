@@ -5,7 +5,7 @@ import PieLogo from "/logo/pie.png";
 import WalletLogo from "/logo/wallet.png";
 import HelpLogo from "/logo/help-call.png";
 import LogOutLogo from "/logo/logout.png";
-import LoginPage from "../Pages/LoginPage";
+
 
 function Navigation() {
     return (

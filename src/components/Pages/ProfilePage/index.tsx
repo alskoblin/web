@@ -8,7 +8,6 @@ import Logo5 from "/logo/head.png"
 import Logo6 from "/logo/head.png"
 import Logo7 from "/logo/head.png"
 import Logo8 from "/logo/head.png"
-import Logo9 from "/logo/head.png"
 import FaceLogo from "/logo/head.png"
 import {Link} from "react-router-dom";
 
