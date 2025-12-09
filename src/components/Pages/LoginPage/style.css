@@ -1,0 +1,161 @@
+.authentication-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.review-container{
+    height: 100%;
+    width: 85%;
+    background-color: #ebf5fa;
+    position: relative;
+}
+.review{
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 25px;
+}
+.review-title{
+    color: #0862e4;
+    font-weight: bold;
+}
+.review-photo{
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+    background-color: #7bb9d8;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.review-text{
+    width: 80%;
+    overflow-wrap: break-word;
+    color : #a3a2a2;
+    text-align: center;
+}
+.review img{
+    width: 70px;
+    height:70px;
+}
+.reviewer-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0862e4;
+}
+.reviewer-information .name{
+    font-weight: bold;
+}
+.reviewer-information p{
+    margin: 5px;
+}
+.trusted-company img{
+    width: 40px;
+    height: 40px;
+}
+.trusted{
+    position: absolute;
+    top: 70%;
+    left: 34%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+    color: #757575;
+}
+.trusted-company{
+    display: flex;
+    flex-direction: row;
+    gap: 80px
+}
+.authentication-form-container-content{
+    margin-top: 15%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.authentication-form-container-text{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.authentication-forms{
+    width: 80%;
+}
+.authentication-forms form{
+    width: 100%;
+}
+.authentication-forms input{
+    width: 110%;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.remember-checkbox input{
+    width: 20px ;
+    height: 20px;
+    margin: 0;
+    margin-left: 5px;
+}
+.remember-checkbox{
+    display: flex;
+    gap : 15px;
+    align-items: center;
+    font-size: 17px;
+}
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+.authentication-forms-continue-with-company img{
+    width: 40px;
+    height: 40px;
+}
+.authentication-form-container form button{
+    background-color: #9c9b9b;
+    border-radius: 10px;
+    width: 115%;
+    height: 50px;
+    margin-top: 20px;
+
+}
+.authentication-forms-continue-with{
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap :30px;
+    align-items: center;
+}
+.authentication-forms-continue-with-company{
+    display: flex;
+    gap: 20px;
+}
+.authentication-forms-continue-with-company{
+    display: flex;
+    gap: 20px;
+}
+.authentication-forms-continue-with-company button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #a1a0a0;
+}
+.authentication-forms-signup{
+    margin-top: 20px;
+    text-align: center;
+}

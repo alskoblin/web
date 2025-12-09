@@ -1,0 +1,19 @@
+.transaction-container{
+    width: 100%;
+    height: 100%;
+    background-color: #ebf5fa;
+    position: relative;
+}
+
+.transaction-history-container-content{
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    top :10%;
+    left :7%;
+    right: 7%;
+    bottom: 10%;
+    padding: 30px;
+}

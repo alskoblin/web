@@ -1,0 +1,113 @@
+.wallet-container{
+    width: 100%;
+    height: 100%;
+    background-color: #ebf5fa;
+}
+.wallet-container-content{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.balance-and-limit-information{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+}
+.order-wallet-infromation{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    height: 100%;
+    gap: 15px;
+}
+.total-balance{
+    width: 100%;
+    height: 20%;
+    grid-row: 1;
+    grid-column: 1;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.card-list{
+    width: 100%;
+    height: 55%;
+    grid-row: 2;
+    grid-column: 1;
+   
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.limitation{
+    width: 100%;
+    height: 25%;
+    grid-row: 3;
+    grid-column: 1;
+   
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.markets{
+    width: 96%;
+    height: 20%;
+   
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 9px;
+}
+.last-days-information{
+    width: 100%;
+    height: 30%;
+   
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.statistics{
+    width: 100%;
+    height: 70%;
+   
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.day-statystic{
+    width: 96%;
+    height: 55%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap :10px;
+    background-color:  #ebf5fa;
+    padding: 10px;
+}
+.currency-due-container{
+    width: 98%;
+    height: 25%;
+   
+    background-color: #ebf5fa;
+    border-radius: 15px;
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+}
+.currency{
+    width: 49%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.due{
+    width: 49%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}

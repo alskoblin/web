@@ -1,0 +1,114 @@
+.navigation{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 20px 20px;
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: space-between;
+
+}
+.navigation img{
+    width: 30px;
+    height: 30px;
+}
+.page-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.settings-navigation{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+.page-navigation__home__link{
+    display: flex;
+    gap:7px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.page-navigation__home__link:hover{
+   background-color: #b3baef;
+}
+.page-navigation__wallet__link:hover{
+    background-color: #b3baef;
+}
+.page-navigation__portfolio__link:hover{
+    background-color: #b3baef;
+}
+.page-navigation__transaction__link:hover{
+    background-color: #b3baef;
+}
+.page-navigation__wallet__link{
+    display: flex;
+    gap:7px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.page-navigation__portfolio__link{
+    display: flex;
+    gap:7px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.page-navigation__transaction__link{
+    display: flex;
+    gap:7px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.settings-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid #cac6c6;
+    padding-top: 20px;
+}
+.page-navigation__help__link{
+    display: flex;
+    gap:10px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.page-navigation__help__link:hover{
+    background-color: #b3baef;
+}
+.page-navigation__logout__link:hover{
+    background-color: #b3baef;
+}
+.page-navigation__help__link img{
+   height: 44px;
+    width: 44px;
+}
+.page-navigation__logout__link img{
+    height: 35px;
+    width: 35px;
+}
+.page-navigation__logout__link{
+    display: flex;
+    gap:17px;
+    justify-content: left;
+    align-items: center;
+    margin-left: 2px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+

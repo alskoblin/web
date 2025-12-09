@@ -1,0 +1,13 @@
+.portfolio-container{
+    width: 100%;
+    height: 100%;
+    background-color: #ebf5fa;
+}
+.portfolio-container-content{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 35px auto;
+    padding: 25px;
+}

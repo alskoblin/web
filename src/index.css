@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Inter_24pt-Regular.ttf';
+    src: url('/fonts/Inter,Roboto/Inter/static/Inter_24pt-Regular.ttf') format('truetype');
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter_24pt-Regular.ttf';
+}
+button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+
+
+    margin: 0;
+
+
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+
+    cursor: pointer;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    padding: 5px;
+}
+button:hover{
+    background-color: #b3baef;
+}

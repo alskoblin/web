@@ -1,0 +1,147 @@
+.profile-container{
+    width: 100%;
+    height: 100%;
+    background-color: #ebf5fa;
+    position: relative;
+    color: black;
+}
+.profile-container-content{
+    position: absolute;
+    top : 20%;
+    left: 25%;
+    width: 40%;
+}
+.main-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.main-information-name{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+}
+.main-information .main-information-contacts .email-number{
+    display: flex;
+    gap: 10px;
+
+}
+
+.main-information-image{
+    background-color: #7bb9d8;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    bottom: 80%;
+}
+.main-information-image img{
+    width: 90px;
+    height: 90px;
+}
+.first-settings{
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    
+}
+.profile-information{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.settings-notifications{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.notifications{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.language{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0;
+    align-items: center;
+}
+.second-settings{
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.language-settigs{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.theme-settigs{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0;
+    align-items: center;
+}
+.third-settings{
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    
+}
+.security{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.help{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+    align-items: center;
+}
+.privacy{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+    align-items: center;
+}
+.first-settings img{
+    width: 15px;
+    height: 15px;
+}
+.second-settings img{
+    width: 15px;
+    height: 15px;
+}
+.third-settings img{
+    width: 15px;
+    height: 15px;
+}
+.theme{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
