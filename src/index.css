@@ -2,11 +2,24 @@
     font-family: 'Inter_24pt-Regular.ttf';
     src: url('/fonts/Inter,Roboto/Inter/static/Inter_24pt-Regular.ttf') format('truetype');
 }
+:root {
+    --bg: #ffffff;
+    --text: #000000;
+}
+
+[data-theme="dark"] {
+    --bg: #121212;
+    --text: #ffffff;
+}
 a:link {
     color: black;
     text-decoration: none;
 }
-
+ul, ol {
+    list-style: none;   /* убираем точки и цифры */
+    padding: 0;         /* убираем внутренний отступ */
+    margin: 0;          /* убираем внешний отступ */
+}
 a:visited {
     color: black;
     text-decoration: none;
@@ -40,4 +53,7 @@ button {
 }
 button:hover{
     background-color: #b3baef;
+}
+.HIGHLIGHT{
+    font-weight: bold;
 }

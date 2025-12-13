@@ -4,7 +4,7 @@
     background-color: #ebf5fa;
 }
 .wallet-container-content{
-    width: 90%;
+    width: 95%;
     height: 85%;
     display: flex;
     gap: 40px;
@@ -15,7 +15,7 @@
 .balance-and-limit-information{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 27%;
     gap: 15px;
 }
 .order-wallet-infromation{
@@ -110,4 +110,41 @@
     background-color: white;
     border-radius: 15px;
     padding: 10px;
+}
+.markets{
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+.markets-options{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.markets-options-list{
+    display: flex;
+    flex-direction: row;
+}
+.markets-options-block{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(6, 73, 221, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.markets-options-list-block{
+    display: flex;
+    flex-direction: column;
+    gap : 5px;
+    align-items: center;
+    border-right: 1px solid rgba(128, 128, 128, 0.22);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.markets-options-list li:last-child .markets-options-list-block {
+    border-right: 0;
+}
+.markets-options-list img{
+    width: 30px;
+    height: 30px;
 }
