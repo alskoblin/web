@@ -4,11 +4,12 @@
     right: -400px;
     width: 300px;
     height: 100vh;
-    background-color: #ffffff;
     box-shadow: 4px 0 20px rgba(0,0,0,0.15);
     padding: 20px;
     transition: left 0.3s ease;
     z-index: 1000;
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 .search-panel.open {

@@ -19,8 +19,6 @@
     margin-top: 30px;
     justify-content: center;
     text-align: center;
-
-
 }
 .settings-navigation{
     display: flex;
@@ -37,16 +35,16 @@
     padding: 10px;
 }
 .page-navigation__home__link:hover{
-   background-color: #b3baef;
+    background-color: #0862e4;
 }
 .page-navigation__wallet__link:hover{
-    background-color: #b3baef;
+    background-color: #0862e4;
 }
 .page-navigation__portfolio__link:hover{
-    background-color: #b3baef;
+    background-color: #0862e4;
 }
 .page-navigation__transaction__link:hover{
-    background-color: #b3baef;
+    background-color: #0862e4;
 }
 .page-navigation__wallet__link{
     display: flex;
@@ -88,10 +86,10 @@
     padding: 5px;
 }
 .page-navigation__help__link:hover{
-    background-color: #b3baef;
+    background-color: #0862e4;
 }
 .page-navigation__logout__link:hover{
-    background-color: #b3baef;
+    background-color: #0862e4;
 }
 .page-navigation__help__link img{
    height: 44px;

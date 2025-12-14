@@ -1,0 +1,42 @@
+.summary-card {
+    background: #020617;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    background-color: var(--bg-content);
+    color: var(--text);
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.summary-header select {
+    background: #020617;
+    color: #e5e7eb;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: var(--bg-content);
+    color: var(--text);
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.summary-grid span {
+    display: block;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.summary-grid strong {
+    font-size: 18px;
+    margin-top: 4px;
+}

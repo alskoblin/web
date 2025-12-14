@@ -1,0 +1,22 @@
+.total-balance-card {
+    width: 85%;
+    height: 75%;
+    background-color: var(--bg-content);
+    padding: 20px;
+    color: var(--text);
+}
+
+.total-balance-card .card-title {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.total-balance-card h2 {
+    margin: 12px 0;
+    font-size: 32px;
+}
+
+.total-balance-card .card-subtitle {
+    font-size: 12px;
+    opacity: 0.6;
+}

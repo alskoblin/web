@@ -1,13 +1,91 @@
 .portfolio-container{
     width: 100%;
-    height: 100%;
-    background-color: #ebf5fa;
+    height: 80%;
+    background-color: var(--bg);
+    color: var(--text);
 }
 .portfolio-container-content{
     width: 80%;
-    height: 80%;
-    background-color: white;
+    height: 90%;
     border-radius: 15px;
     margin: 35px auto;
     padding: 25px;
+    background-color: var(--bg-content);
+}
+
+
+.portfolio-container-content {
+    display: grid;
+}
+
+.portfolio-summary {
+    border-radius: 12px;
+    padding: 20px;
+    color: var(--text);
+    background-color: #9292ef;
+}
+
+.portfolio-summary span {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.portfolio-summary h2 {
+    margin-top: 8px;
+    font-size: 32px;
+}
+
+.portfolio-table {
+    background-color: var(--bg-content);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.portfolio-table-header,
+.portfolio-table-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 16px 20px;
+    align-items: center;
+}
+
+.portfolio-table-header {
+    background-color: var(--bg-content);
+    color: #94a3b8;
+    font-size: 14px;
+    border-bottom: 1px solid #1e293b;
+}
+
+.portfolio-table-row {
+    color: var(--text);
+    border-bottom: 1px solid #1e293b;
+}
+
+.portfolio-table-row:last-child {
+    border-bottom: none;
+}
+
+.portfolio-table-row:hover {
+    background: #020617;
+    color: white;
+}
+
+/* ASSET */
+.asset-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.asset-symbol {
+    font-weight: 600;
+}
+
+.asset-fullname {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.asset-value {
+    font-weight: 600;
+    color: #22c55e;
 }

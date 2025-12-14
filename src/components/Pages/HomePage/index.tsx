@@ -1,42 +1,75 @@
 import Information from "../../Information";
 import "./style.css"
+import TotalBalanceCard from "../../TotalBalanceCard";
+import CryptoMiniChart from "../../CryptoMiniChart";
+import BigChart from "../../BigChart/index.jsx";
+import MarketsList from "../../MarketsList";
 
 
 const HomePage = () => {
+    const btcData = [
+        { time: "10:00", value: 43000 },
+        { time: "11:00", value: 43200 },
+        { time: "12:00", value: 43150 },
+        { time: "13:00", value: 43300 },
+    ];
+
+    const ethData = [
+        { time: "10:00", value: 2300 },
+        { time: "11:00", value: 2320 },
+        { time: "12:00", value: 2315 },
+        { time: "13:00", value: 2330 },
+    ];
+
+    const solData = [
+        { time: "10:00", value: 95 },
+        { time: "11:00", value: 96 },
+        { time: "12:00", value: 94 },
+        { time: "13:00", value: 95.5 },
+    ];
+
+    const trumpData = [
+        { time: "10:00", value: 0.33 },
+        { time: "11:00", value: 0.34 },
+        { time: "12:00", value: 0.32 },
+        { time: "13:00", value: 0.34 },
+    ];
+
+
     return (
         <>
-            <div className="home-page-container">
+            <div className = "home-page-container">
                 <Information pageName="Home" />
                 <div className="home-page-container-content">
                     <div className="assets-crypto-grafics">
                         <div className="assets">
-                            Your total balance(все летит с бекенда)
+                            <TotalBalanceCard/>
                         </div>
                         <div className="crypto-grafics">
                             <div className="first-blok">
                                 <div className="crypto-metric">
-                                    График USDT/BTC(Данные идут с бекенда)
+                                    <CryptoMiniChart data={btcData} pair="BTC/USDT"/>
                                 </div>
                                 <div className="crypto-metric">
-                                    График USDT/ETH(Данные идут с бекенда)
+                                    <CryptoMiniChart data={ethData} pair="USDT/ETH"/>
                                 </div>
                             </div>
                             <div className="second-blok">
                                 <div className="crypto-metric">
-                                    График USDT/SOLANA(Данные идут с бекенда)
+                                    <CryptoMiniChart data={trumpData} pair="USDT/SOLANA"/>
                                 </div>
                                 <div className="crypto-metric">
-                                    График USDT/TRUMPCOIN(Данные идут с бекенда)
+                                    <CryptoMiniChart data={solData} pair="USDT/TRUMPCOIN"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="big-grafic-markets">
-                        <div className="big-grafic">
-                            Большой подробный график(цена время, период можно будет выбрать) USDT/BTC(Данные идут с бекенда)
+                        <div className="big-grafic-сustom">
+                            <BigChart/>
                         </div>
                         <div className="Markets">
-                            Тут будет список основных крипто пар с ценами и их логотипами(Данные идут с бекенда)
+                            <MarketsList/>
                         </div>
                     </div>
                 </div>

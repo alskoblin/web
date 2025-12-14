@@ -1,9 +1,9 @@
 .profile-container{
     width: 100%;
     height: 100%;
-    background-color: #ebf5fa;
     position: relative;
-    color: black;
+    background-color: var(--bg);
+    color: var(--text);
 }
 .profile-container-content{
     position: absolute;
@@ -21,11 +21,13 @@
     background-color: white;
     border-radius: 15px;
     margin-bottom: 15px;
+    background-color: var(--bg-content);
 }
 .main-information-name{
     font-size: 25px;
     font-weight: bold;
     padding: 0;
+    background-color: var(--bg-content);
 }
 .main-information .main-information-contacts .email-number{
     display: flex;
@@ -45,10 +47,10 @@
     height: 90px;
 }
 .first-settings{
-    background-color: white;
     border-radius: 15px;
     margin-bottom: 15px;
     padding: 15px;
+    background-color: var(--bg-content);
     
 }
 .profile-information{
@@ -56,6 +58,7 @@
     margin: 10px;
     gap: 10px;
     align-items: center;
+    padding: 5px;
 }
 .settings-notifications{
     display: flex;
@@ -76,10 +79,10 @@
     align-items: center;
 }
 .second-settings{
-    background-color: white;
     border-radius: 15px;
     margin-bottom: 15px;
     padding: 15px;
+    background-color: var(--bg-content);
 }
 .language-settigs{
     display: flex;
@@ -98,33 +101,34 @@
     border-radius: 15px;
     margin-bottom: 15px;
     padding: 15px;
+    background-color: var(--bg-content);
     
 }
 .security{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 5px;
+    padding: 9px;
     margin-left: 5px;
 }
 .help{
     display: flex;
     margin: 5px;
-    padding: 5px;
+    padding: 9px;
     gap: 10px;
     align-items: center;
 }
 .contact{
     display: flex;
     margin: 5px;
-    padding: 5px;
+    padding: 9px;
     gap: 10px;
     align-items: center;
 }
 .privacy{
     display: flex;
     margin: 5px;
-    padding: 5px;
+    padding: 9px;
     gap: 10px;
     align-items: center;
 }
@@ -143,5 +147,5 @@
 .theme{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 9px;
 }

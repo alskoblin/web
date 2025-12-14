@@ -1,10 +1,9 @@
 
-
-
-
 .header-container{
     width: 15%;
     height : 100%;
+    background-color: var(--bg);
+    color: var(--text);
 }
 .header__logo{
     display: flex;

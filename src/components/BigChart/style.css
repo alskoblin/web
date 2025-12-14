@@ -1,0 +1,66 @@
+/* style.css */
+.simple-chart {
+    background: var(--bg-content);
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    height: 90%;
+    border-radius: 20px;
+    color: var(--text);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chart-header h3 {
+    margin: 0;
+    color: var(--text);
+    font-size: 18px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text);
+    margin-top: 5px;
+}
+
+.period-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.period-buttons button {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background-color: var(--bg-content);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--text);
+    transition: all 0.2s;
+}
+
+.period-buttons button:hover {
+    background-color: var(--bg-content);
+    color: var(--text);
+}
+
+.period-buttons button.active {
+    background: #3b82f6;
+    color: var(--text);
+    border-color: #3b82f6;
+}
+
+.chart-container {
+    height: 70%;
+}
+
+/* Для подсказки */
+.recharts-tooltip-wrapper {
+    font-size: 12px;
+}

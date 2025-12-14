@@ -1,0 +1,32 @@
+.limit-card {
+    background: #020617;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    background-color: var(--bg-content);
+    color: var(--text);
+}
+
+.limit-card span {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.limit-card strong {
+    display: block;
+    margin-top: 6px;
+    font-size: 18px;
+}
+
+.limit-bar {
+    height: 8px;
+    background: #1e293b;
+    border-radius: 6px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.limit-progress {
+    height: 100%;
+    background: linear-gradient(90deg, #22c55e, #ef4444);
+}

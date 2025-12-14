@@ -2,18 +2,20 @@
     height: 100%;
     width: 100%;
     display: flex;
+    background-color: var(--bg-content);
+    color: var(--text);
 }
 .review-container{
     height: 100%;
     width: 85%;
-    background-color: #ebf5fa;
     position: relative;
+    background-color: var(--bg);
+    color: var(--text);
 }
 .review{
     width: 40%;
     height: 60%;
     margin: 0 auto;
-    background-color: white;
     position: absolute;
     top: 10%;
     left: 28%;
@@ -22,6 +24,8 @@
     flex-direction: column;
     align-items: center;
     gap : 25px;
+    background-color: var(--bg-content);
+    color: var(--text);
 }
 .review-title{
     color: #0862e4;

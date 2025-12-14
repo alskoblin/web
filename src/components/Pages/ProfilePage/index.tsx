@@ -2,10 +2,11 @@ import Information from "../../Information";
 import "./style.css"
 import FaceLogo from "/logo/head.png"
 import {Link} from "react-router-dom";
+import {ChangeMode} from "../../../js/changeMode.tsx";
 
 const Index = () => {
     return (
-        <div className="profile-container">
+        <div className="profile-container" >
             <Information pageName="Profile" />
             <div className="profile-container-content">
                 <div className="main-information">
@@ -32,12 +33,6 @@ const Index = () => {
                         </div>
                         <button className="current-notifications-state">On</button>
                     </div>
-                    <div className="language">
-                        <div className="language-settigs">
-                            <button className="edit-language">Language</button>
-                        </div>
-                        <button className="current-language-state">English</button>
-                    </div>
                 </div>
                 <div className="second-settings">
                     <div className="security">
@@ -47,7 +42,7 @@ const Index = () => {
                         <div className="theme">
                             <button className="edit-theme">Theme</button>
                         </div>
-                        <button className="current-theme">Light Mode</button>
+                        <button id="current-theme" onClick={ChangeMode}>Change</button>
                     </div>
                 </div>
                 <div className="third-settings">

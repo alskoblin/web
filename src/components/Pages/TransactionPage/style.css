@@ -1,19 +1,25 @@
 .transaction-container{
     width: 100%;
     height: 100%;
-    background-color: #ebf5fa;
     position: relative;
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 .transaction-history-container-content{
-    width: 85%;
-    height: 85%;
+    width: 80%;
+    height: 80%;
     position: absolute;
-    background-color: white;
     border-radius: 15px;
     top :10%;
     left :7%;
     right: 7%;
     bottom: 10%;
-    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    color: var(--text);
+    background-color: var(--bg-content);
+
 }

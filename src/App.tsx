@@ -12,7 +12,7 @@ import HelpPage from "./components/Pages/HelpPage";
 
 function App() {
         return (
-            <div className="app-container">
+            <div className="app-container" id="app-container">
                 <BrowserRouter>
                     <Header></Header>
                     <Routes>

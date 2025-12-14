@@ -1,66 +1,63 @@
 .home-page-container{
     width: 100%;
     height: 100%;
-    background-color: #ebf5fa;
+    background-color: var(--bg);
+    color: var(--text);
 }
 .home-page-container-content{
     height: 85%;
     width: 85%;
     display: flex;
-    gap :30px;
+    gap :35px;
     flex-direction: column;
-    
+
     margin: 30px;
     margin-left: 60px;
 }
 .assets-crypto-grafics{
     width: 100%;
-    height: 50%;
-    
+    height: 35%;
     display: flex;
     gap: 20px;
     padding: 10px;
+    align-items: center;
 }
 .big-grafic-markets{
     width: 100%;
-    height: 50%;
-    
+    height: 60%;
     display: flex;
     gap: 20px;
     padding: 10px;
 }
+.big-grafic-сustom{
+    width: 70%;
+    height: 85%;
+}
 .assets{
-    
     width: 40%;
-    height: 100%;
-    background-color: white;
+    height: 110%;
     border-radius: 20px;
     padding: 10px;
     margin: 5px;
+    background-color: var(--bg-content);
 }
 .crypto-grafics{
-    
+
     width: 60%;
-    height: 100%;
+    height: 110%;
     display: flex;
     gap : 15px;
     padding: 10px;
-}
-.big-grafic{
-    
-    width: 70%;
-    height: 100%;
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px;
+    align-items: center;
 }
 .Markets{
-    
+
     width: 30%;
-    height: 100%;
+    height: 85%;
     background-color: white;
     border-radius: 20px;
     padding: 10px;
+    background-color: var(--bg-content);
 }
 .first-blok{
     width: 50%;
@@ -84,4 +81,7 @@
     background-color: white;
     border-radius: 20px;
     padding: 5px;
+    background-color: var(--bg-content);
 }
+
+

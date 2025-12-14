@@ -1,0 +1,29 @@
+.markets-custom {
+    height: 80%;
+    width: 80%;
+    background-color: var(--bg-content);
+    padding: 20px;
+    color: var(--text);
+}
+
+.markets .card-title {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.markets-list {
+    margin-top: 16px;
+    display: grid;
+    gap: 12px;
+}
+
+.market-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #1e293b;
+}
+
+.market-row:last-child {
+    border-bottom: none;
+}

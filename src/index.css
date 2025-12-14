@@ -3,25 +3,27 @@
     src: url('/fonts/Inter,Roboto/Inter/static/Inter_24pt-Regular.ttf') format('truetype');
 }
 :root {
-    --bg: #ffffff;
+    --bg: #ebf5fa;
     --text: #000000;
+    --bg-content : white;
 }
 
 [data-theme="dark"] {
-    --bg: #121212;
+    --bg: #050b30;
     --text: #ffffff;
+    --bg-content : #101b61
 }
 a:link {
-    color: black;
+    color: var(--text);
     text-decoration: none;
 }
 ul, ol {
-    list-style: none;   /* убираем точки и цифры */
-    padding: 0;         /* убираем внутренний отступ */
-    margin: 0;          /* убираем внешний отступ */
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 a:visited {
-    color: black;
+    color: var(--text);
     text-decoration: none;
 }
 html, body, #root {
@@ -52,7 +54,7 @@ button {
     padding: 5px;
 }
 button:hover{
-    background-color: #b3baef;
+    background-color: #0862e4;
 }
 .HIGHLIGHT{
     font-weight: bold;
