@@ -157,5 +157,10 @@
     .profile-container-content{
         width: 80%;
         left: 10%;
+        height: 80%;
+    }
+    .main-information-image img{
+        width: 40px;
+        height: 40px;
     }
 }
