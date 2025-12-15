@@ -126,7 +126,7 @@
     }
     .userbar{
         display: flex;
-        gap: 30px;
+        gap: 10px;
         align-items: center;
         margin-right: 30px;
         margin-left: 10px;
@@ -134,7 +134,7 @@
     .page{
         font-weight: bold;
         font-size: 20px;
-        margin-left: 12px;
+        margin-left: 5px;
         margin-right: 10px;
     }
     .information-container{

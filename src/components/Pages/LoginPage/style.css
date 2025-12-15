@@ -167,4 +167,18 @@ input[type="checkbox"] {
     .review-container{
         display: none;
     }
+    .authentication-form-container-text{
+        margin-top: 1px;
+    }
+    .authentication-forms-continue-with-company img{
+        width: 20px;
+        height: 20px;
+    }
+    .authentication-forms-continue-with{
+        margin: 0;
+        gap :15px;
+    }
+    .authentication-forms-signup{
+        margin-top: 0px;
+    }
 }
