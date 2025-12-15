@@ -152,12 +152,12 @@
 
 @media (max-width: 400px) {
     .profile-container{
-        font-size: 13px;
+        font-size: 10px;
     }
     .profile-container-content{
         width: 80%;
         left: 10%;
-        height: 80%;
+        top: 15%;
     }
     .main-information-image img{
         width: 40px;
