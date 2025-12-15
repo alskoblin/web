@@ -8,6 +8,7 @@ import ProfilePage from "./components/Pages/ProfilePage";
 import Header from "./components/Header";
 import LoginPage from "./components/Pages/LoginPage";
 import HelpPage from "./components/Pages/HelpPage";
+import EditeProfile from "./components/Pages/EditProfilInformation";
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
                         <Route path="/profile" element={<ProfilePage />} />
                         <Route path="/login" element={<LoginPage />} />
                         <Route path="/help" element={<HelpPage />} />
+                        <Route path="/edit" element={<EditeProfile />} />
+                        <Route path="/contact" element={<HelpPage />} />
+                        <Route path="/privacy" element={<HelpPage />} />
                     </Routes>
                 </BrowserRouter>
             </div>

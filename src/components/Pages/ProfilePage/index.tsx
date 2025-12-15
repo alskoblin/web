@@ -25,7 +25,7 @@ const Index = () => {
                 </div>
                 <div className="first-settings">
                     <div className="profile-information">
-                        <Link to="/set-profile-information">Edit profile information</Link>
+                        <Link to="/edit">Edit profile information</Link>
                     </div>
                     <div className="settings-notifications">
                         <div className="notifications">
