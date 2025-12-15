@@ -160,7 +160,7 @@
     .markets-options-list{
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 10px;
     }
     .wallet-container{
         font-size: 10px;
