@@ -30,3 +30,8 @@
     height: 100%;
     background: linear-gradient(90deg, #22c55e, #ef4444);
 }
+@media (max-width: 400px) {
+    .limit-card {
+       height: 80%;
+    }
+}

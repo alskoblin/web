@@ -163,3 +163,8 @@ input[type="checkbox"] {
     margin-top: 20px;
     text-align: center;
 }
+@media (max-width: 400px) {
+    .review-container{
+        display: none;
+    }
+}

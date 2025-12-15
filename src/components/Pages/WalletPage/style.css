@@ -150,3 +150,41 @@
 .Markets{
     height: 80%;
 }
+@media (max-width: 400px) {
+    .day-statystic{
+        display: none;
+    }
+    .currency-due-container{
+        display: none;
+    }
+    .markets-options-list{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .wallet-container{
+        font-size: 10px;
+    }
+    .markets{
+        width: 35%;
+        height: 100%;
+        margin-left: 80px;
+    }
+    .total-balance{
+        width: 180%;
+        padding: 15px;
+    }
+    .limitation{
+        width: 190%;
+        height: 25%;
+    }
+    .card-list{
+        width: 190%;
+        height: 55%;
+        grid-row: 2;
+        grid-column: 1;
+        background-color: var(--bg-content);
+        border-radius: 15px;
+        padding: 10px;
+    }
+}

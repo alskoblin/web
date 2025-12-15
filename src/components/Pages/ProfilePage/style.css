@@ -149,3 +149,13 @@
     align-items: center;
     gap: 9px;
 }
+
+@media (max-width: 400px) {
+    .profile-container{
+        font-size: 13px;
+    }
+    .profile-container-content{
+        width: 80%;
+        left: 10%;
+    }
+}

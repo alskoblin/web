@@ -85,3 +85,30 @@
 }
 
 
+@media (max-width: 400px) {
+    .crypto-grafics{display: none}
+    .big-grafic-сustom{
+        display: none;
+    }
+    .assets{
+        width: 75%;
+        height: 100%;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: var(--bg-content);
+        margin-top: 30px;
+    }
+    .Markets{
+        width: 75%;
+        height: 85%;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: var(--bg-content);
+    }
+    .home-page-container{
+        width: 100%;
+        height: 100%;
+        background-color: var(--bg);
+        color: var(--text);
+    }
+}
